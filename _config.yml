@@ -25,13 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/CSUSB-Math-This-Week" # the subpath of your site, e.g. /blog
 url: "https://youngsukim-csusb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  youngsuKim-csusb
+# github_username:  youngsuKim-csusb
 
 # Build settings
 theme: minima
-minima:
-  skin: dark
-  date_format: "%b %-d, %Y"
+# minima:
+#   skin: dark
+#   date_format: "%b %-d, %Y"
 
 plugins:
   - jekyll-feed
