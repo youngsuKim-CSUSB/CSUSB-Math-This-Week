@@ -14,8 +14,8 @@ This week
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      {{ post.date }}
-      {{ post.url | prepend: site.baseurl | prepend: site.url }}
+      <!-- {{ post.date }}
+      {{ post.url | prepend: site.baseurl | prepend: site.url }} -->
       {{ post.excerpt }}
     </li>
   {% endfor %}
