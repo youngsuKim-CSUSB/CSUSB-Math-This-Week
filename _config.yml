@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CSUSB MATH Event List
-email: youngsu.kim at CSUSB dot E~
+title: CSUSB MATH Events
+# email: youngsu.kim at CSUSB dot E~
 description: >- # this means to ignore newlines until "baseurl:"
   Testing webpage for the F2021 semester 
 baseurl: "/CSUSB-Math-This-Week" # the subpath of your site, e.g. /blog

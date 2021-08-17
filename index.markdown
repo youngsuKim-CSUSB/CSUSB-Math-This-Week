@@ -24,7 +24,7 @@ order: 1
 </ul>
 
 <h2>
-Up-coming event
+Up-coming events
 </h2>
 <ul>
   {% for post in site.posts %}
