@@ -3,27 +3,54 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Click the event name to see the full detail
+# title: 
 order: 1
 ---
-<h1>
-This week 
-</h1>
+<!-- {{ site.time | date: '%y' }} -->
+{% capture systemThisWeek %}{{'now' | date: '%W'}}{% endcapture %}
+<h2> This week; today is {{ 'now' | date: "%a, %D" }} </h2> 
 <!-- {{ site.posts[0].url }} -->
 <ul>
   {% for post in site.posts %}
-    <li>
+  {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
+  {% if postWeek == systemThisWeek %}
+      <li> 
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      <!-- {{ post.date }}
-      {{ post.url | prepend: site.baseurl | prepend: site.url }} -->
+      {{ post.date | date: 'on %a, %D at %I %P' }} 
       {{ post.excerpt }}
-    </li>
+      </li>
+  {% endif %}
   {% endfor %}
 </ul>
-<h1>
-Up-coming 
-</h1>
 
-<h1>
-Past
-</h1>
+<h2>
+Up-coming event
+</h2>
+<ul>
+  {% for post in site.posts %}
+  {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
+  {% if postWeek > systemThisWeek %}
+      <li> 
+      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+      {{ post.date | date: 'on %a, %D at %I %P' }} 
+      {{ post.excerpt }}
+      </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+
+<h2>
+Past events
+</h2>
+<ul>
+  {% for post in site.posts %}
+  {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
+  {% if postWeek < systemThisWeek %}
+      <li> 
+      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+      {{ post.date | date: 'on %a, %D at %I %P' }} 
+      {{ post.excerpt }}
+      </li>
+  {% endif %}
+  {% endfor %}
+</ul>

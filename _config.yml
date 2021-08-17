@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Testing webpage for the F2021 semester 
 baseurl: "/CSUSB-Math-This-Week" # the subpath of your site, e.g. /blog
 url: "https://youngsukim-csusb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+future: true
 # twitter_username: jekyllrb
 # github_username:  youngsuKim-csusb
 

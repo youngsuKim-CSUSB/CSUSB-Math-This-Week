@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About (Under construction)
-permalink: /about/
+title: Google Forms (Under construction)
+permalink: /Google-Forms/
 ---
-Under construction 
+This page will include a Google form link to submit events. 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
