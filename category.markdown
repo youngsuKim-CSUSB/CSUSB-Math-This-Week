@@ -5,8 +5,9 @@ layout: default
 # title: 
 order: 1
 ---
+<!-- {{ site.time | date: '%y' }} -->
 {% capture systemThisWeek %}{{'now' | date: '%W'}}{% endcapture %}
-# This week <font size="2"> today is {{ 'now' | date: "%a, %D" }} </font> 
+# This week; today is {{ 'now' | date: "%a, %D" }}
 <!-- {{ site.posts[0].url }} -->
 <ul>
   {% for post in site.posts %}
@@ -15,7 +16,7 @@ order: 1
       <li> 
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {{ post.date | date: 'on %a, %D at %I %P' }} 
-      {{ post.content }}
+      {{ post.excerpt }}
       </li>
   {% endif %}
   {% endfor %}
@@ -43,7 +44,7 @@ order: 1
       <li> 
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {{ post.date | date: 'on %a, %D at %I %P' }} 
-      <!-- {{ post.excerpt }} -->
+      {{ post.excerpt }}
       </li>
   {% endif %}
   {% endfor %}
