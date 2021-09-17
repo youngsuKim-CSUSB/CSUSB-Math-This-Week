@@ -13,8 +13,10 @@ order: 1
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postWeek == systemThisWeek %}
       <li> 
+      <font size="5">
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {{ post.date | date: 'on %a, %D at %I %P' }} 
+      </font>
       {{ post.content }}
       </li>
   {% endif %}
@@ -50,3 +52,5 @@ order: 1
 </ul>
 
 ## Happening this semester
+
+* [Math Club](https://www.csusb.edu/mathematics/undergraduate/math-club); F2021 membership fee is waived.
