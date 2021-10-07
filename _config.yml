@@ -21,7 +21,7 @@
 title: CSUSB MATH Events
 # email: youngsu.kim at CSUSB dot E~
 description: >- # this means to ignore newlines until "baseurl:"
-  Testing webpage for the F2021 semester 
+  These materials are not endorsed, approved, sponsored, or provided by or on behalf of California State University San Bernardino.
 baseurl: "/CSUSB-Math-This-Week" # the subpath of your site, e.g. /blog
 url: "https://youngsukim-csusb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 future: true
