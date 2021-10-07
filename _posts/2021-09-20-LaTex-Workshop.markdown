@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Laid-back Introduction to LaTeX"
-date:   2021-09-20 13:00:00 -0700
+date:   2021-09-20 13:00:00 0000
 tags: LaTeX Workshop
 ---
 Come to join us as we walk you through a laid-back introduction to using LaTeX in your mathematics courses. [Flyer]({{ 'assets/LaTeX-Workshop/What-is-LaTeX-2021Fall.pdf' | relative_url }}) 
