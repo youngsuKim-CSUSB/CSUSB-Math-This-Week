@@ -9,7 +9,8 @@ order: 1
 # This week <font size="2"> today is {{ 'now' | date: "%a, %D" }} </font> 
 <!-- {{ site.posts[0].url }} -->
 <ul>
-  {% for post in site.posts %}
+  {% assign orderedpost = site.posts | reverse %}
+  {% for post in orderedpost %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postWeek == systemThisWeek %}
       <li> 

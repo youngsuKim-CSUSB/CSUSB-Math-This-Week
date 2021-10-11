@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "BAMM!"
+date:   2021-10-15 13:00:00 0000
+tags: BAMM Graduate PhD Zoom
+---
+The BAMM! family will be hosting a virtual PhD Program Panel on Friday 10/15/21 from 1:00pm to 2:00pm [Flyer]({{ 'assets/BAMM/BAMM-Program-Panel-Fall2021.pdf' | relative_url }})
+
+To join us, please [register here](https://urldefense.proofpoint.com/v2/url?u=http-3A__shorturl.at_vwQSU&d=DwMFAg&c=B_W-eXUX249zycySS1AyzjABMeYirU1wvo9-GmMObjY&r=6V4-zB49N4EGHiMyGhMuudxsCR_wdf8-HwU64M4ALZE&m=CnOIgP2_ijXGWo0mzrJi2HUGcLS6bLUDAziwdWNS9U8kdulFnTjYyTVLbpENdwb7&s=X94z9AlToNm_fjnLX9aDXbJtAuLs1frVWUZ5IXo9H4k&e=) for free (the link is also on the flyer). Registrants will receive an email confirmation that includes the Zoom link and passcode for the event.
+
+The panelists are Professors Roummel Marcia (UC Merced), Nathan Kaplan (UC Irvine), David Weisbart (UC Riverside), and Daniel Reinholz (San Diego State University). They'll represent their programs in pure mathematics, applied mathematics, and mathematics education. Most of the time will be spent on Q&A sessions, both with the whole group and in breakout rooms by campus.
