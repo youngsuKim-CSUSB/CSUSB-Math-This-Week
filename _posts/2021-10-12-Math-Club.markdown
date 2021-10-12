@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Math Club"
+date:   2021-10-12 12:00:00 0000
+tags: Math Club In-persion
+---
+MATH CLUB MEETING! There will be FREE FOOD! It will take place on TUESDAY, OCTOBER 12, 2021 at 12:00 PM-1:00 PM in **JB 391**! [Flyer]({{ 'assets/Math-Club/CSUSB_Math_Club_October_Meeting_2021_Flyer.pdf' | relative_url }})
+
+This is an **in-person** event. Must complete daily COVID-screen report to attend.
+
+<!-- * [CV]({{ 'assets/CV_Youngsu_Kim.pdf' | relative_url }}), updated June 2021. -->
+
+

@@ -9,8 +9,8 @@ order: 1
 # This week <font size="2"> today is {{ 'now' | date: "%a, %D" }} </font> 
 <!-- {{ site.posts[0].url }} -->
 <ul>
-  {% assign orderedpost = site.posts | reverse %}
-  {% for post in orderedpost %}
+  <!-- {% assign orderedpost = site.posts | reverse %} -->
+  {% for post in site.posts reversed %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postWeek == systemThisWeek %}
       <li> 
@@ -18,7 +18,7 @@ order: 1
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {{ post.date | date: 'on %a, %D at %I %P' }} 
       </font>
-      {{ post.content }}
+      {{ post.excerpt }}
       </li>
   {% endif %}
   {% endfor %}
