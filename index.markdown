@@ -14,10 +14,10 @@ order: 1
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postWeek == systemThisWeek %}
       <li> 
-      <font size="5">
+      <font size="4">
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      {{ post.date | date: 'on %a, %D at %I %P' }} 
       </font>
+      {{ post.date | date: 'on %a, %-m/%-d at %-I %P' }} 
       {{ post.excerpt }}
       </li>
   {% endif %}
@@ -31,7 +31,7 @@ order: 1
   {% if postWeek > systemThisWeek %}
       <li> 
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      {{ post.date | date: 'on %a, %D at %I %P' }} 
+      {{ post.date | date: 'on %a, %D at %-I %P' }} 
       {{ post.excerpt }}
       </li>
   {% endif %}
@@ -45,7 +45,7 @@ order: 1
   {% if postWeek < systemThisWeek %}
       <li> 
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      {{ post.date | date: 'on %a, %D at %I %P' }} 
+      {{ post.date | date: 'on %a, %D' }} 
       <!-- {{ post.excerpt }} -->
       </li>
   {% endif %}
@@ -55,3 +55,5 @@ order: 1
 ## Happening this semester
 
 * [Math Club](https://www.csusb.edu/mathematics/undergraduate/math-club); F2021 membership fee is waived.
+
+<!-- http://alanwsmith.com/jekyll-liquid-date-formatting-examples -->
