@@ -26,7 +26,7 @@ order: 1
 
 ## Up-coming events
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postWeek > systemThisWeek %}
       <li> 
@@ -40,7 +40,7 @@ order: 1
 
 ## Past events
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postWeek < systemThisWeek %}
       <li> 
