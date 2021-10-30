@@ -36,8 +36,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
-
-gems: jekyll-email-protect
+  - jekyll-email-protect
 
 timezone: PST8PDT
 # Exclude from processing.
