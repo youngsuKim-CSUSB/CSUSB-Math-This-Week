@@ -2,7 +2,7 @@ name: Update all github pages
 
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "31 * * * *"
 
 jobs:
   github-pages:
