@@ -6,7 +6,7 @@ layout: default
 order: 1
 ---
 {% capture systemThisWeek %}{{'now' | date: '%W'}}{% endcapture %}
-# This week <font size="2"> today is {{ 'now' | date: "%a, %D" }} </font> 
+# This week <font size="2"> today is {{ 'now' | date: "%a %D" }} </font> 
 <!-- {{ site.posts[0].url }} -->
 <ul>
   <!-- {% assign orderedpost = site.posts | reverse %} -->
@@ -17,7 +17,7 @@ order: 1
       <font size="4">
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       </font>
-      {{ post.date | date: 'on %a, %-m/%-d at %-I %P' }} 
+      {{ post.date | date: 'on %a %-m/%-d at %-I %P' }} 
       {{ post.excerpt }}
       </li>
   {% endif %}
@@ -33,9 +33,9 @@ order: 1
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {% capture postMinutes %}{{post.date | date: '%M'}}{% endcapture %}
       {% if postMinutes == '00' %}
-        {{ post.date | date: 'on %a, %D at %-I %P' }} 
+        {{ post.date | date: 'on %a %D at %-I %P' }} 
       {% else %}
-        {{ post.date | date: 'on %a, %D at %-I:%M %P' }} 
+        {{ post.date | date: 'on %a %D at %-I:%M %P' }} 
       {% endif %}
       {{ post.excerpt }}
       </li>
@@ -50,7 +50,7 @@ order: 1
   {% if postWeek < systemThisWeek %}
       <li> 
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      {{ post.date | date: 'on %a, %D' }} 
+      {{ post.date | date: 'on %a %D' }} 
       <!-- {{ post.excerpt }} -->
       </li>
   {% endif %}
