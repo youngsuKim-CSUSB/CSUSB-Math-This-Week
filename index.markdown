@@ -61,4 +61,8 @@ order: 1
 
 * [Math Club](https://www.csusb.edu/mathematics/undergraduate/math-club); F2021 membership fee is waived.
 
+## SageMath
+
+* Thanks to Pedro, if you want to try out [Sage](https://www.sagemath.org/), use your CSUSB credentials to login [myhorizon.csusb.edu](https://myhorizon.csusb.edu); for questions and comments contact Youngsu Kim. 
+* If you need high-performance computing, please consider [HPC at CSUSB](https://www.csusb.edu/academic-technologies-innovation/xreal-lab-and-high-performance-computing/high-performance-0).
 <!-- http://alanwsmith.com/jekyll-liquid-date-formatting-examples -->
