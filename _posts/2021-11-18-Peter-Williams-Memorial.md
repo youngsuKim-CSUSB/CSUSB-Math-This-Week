@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Peter D. Williams Memorial!"
+title:  "Peter D. Williams Memorial"
 date:   2021-11-18 17:30:00 0000
 tags: Williams Memorial Math
 ---
@@ -12,5 +12,6 @@ The Department of Mathematics invites you to join us in a celebration of the bea
 We are grateful for the support of the College of Arts and Letters for this event. Please RSVP by Friday, Nov. 12 to Diana De La Cruz <ddelacruz@csusb.edu>
 
 Thank you,
-Madeleine Jetter, Chair, Department of Mathematics
+Madeleine Jetter, Chair, Department of Mathematics  
+
 [Flyer]({{ 'assets/Memorial/Peter-Williams-Memorial.jpg' | relative_url }})
