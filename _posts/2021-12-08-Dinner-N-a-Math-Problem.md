@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dinner & a Math Problem!"
-date:   2021-11-10 16:00:00 0000
+date:   2021-12-08 16:00:00 0000
 tags: Dinner Math-Problem 2021-2022
 ---
 <!-- The Inland Empire Math Teachers’ Circle presents Dinner and a Math Problem! -->
