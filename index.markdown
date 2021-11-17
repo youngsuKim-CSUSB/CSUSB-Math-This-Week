@@ -17,7 +17,11 @@ order: 1
       <font size="4">
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       </font>
-      {{ post.date | date: 'on %a %-m/%-d at %-I %P' }} 
+      {% if postMinutes == '00' %}
+        {{ post.date | date: 'on %a %D at %-I %P' }} 
+      {% else %}
+        {{ post.date | date: 'on %a %D at %-I:%M %P' }} 
+      {% endif %}      
       {{ post.excerpt }}
       </li>
   {% endif %}
