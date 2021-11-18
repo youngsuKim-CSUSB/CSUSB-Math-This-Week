@@ -37,9 +37,9 @@ order: 1
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {% capture postMinutes %}{{post.date | date: '%M'}}{% endcapture %}
       {% if postMinutes == '00' %}
-        {{ post.date | date: 'on %a %D at %-I %P' }} 
+        {{ post.date | date: 'on %a %-m/%-d at %-I %P' }} 
       {% else %}
-        {{ post.date | date: 'on %a %D at %-I:%M %P' }} 
+        {{ post.date | date: 'on %a %-m/%-d at %-I:%M %P' }} 
       {% endif %}
       {{ post.excerpt }}
       </li>
@@ -70,3 +70,4 @@ order: 1
 * Thanks to Pedro, if you want to try out [Sage](https://www.sagemath.org/), use your CSUSB credentials to login [myhorizon.csusb.edu](https://myhorizon.csusb.edu); for questions and comments contact Youngsu Kim. 
 * If you need high-performance computing, please consider [HPC at CSUSB](https://www.csusb.edu/academic-technologies-innovation/xreal-lab-and-high-performance-computing/high-performance-0).
 <!-- http://alanwsmith.com/jekyll-liquid-date-formatting-examples -->
+<!-- {{ post.date | date: 'on %a %-m/%-d at %-I %P' }}  -->
