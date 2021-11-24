@@ -55,7 +55,6 @@ order: 1
       <li> 
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       {{ post.date | date: 'on %a %D' }} 
-      <!-- {{ post.excerpt }} -->
       </li>
   {% endif %}
   {% endfor %}
