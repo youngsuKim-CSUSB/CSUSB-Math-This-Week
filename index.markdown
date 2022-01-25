@@ -71,4 +71,6 @@ order: 1
 <!-- http://alanwsmith.com/jekyll-liquid-date-formatting-examples -->
 <!-- {{ post.date | date: 'on %a %-m/%-d at %-I %P' }}  -->
 
+# Past semesters
+
 ## F2021
