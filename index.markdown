@@ -28,7 +28,7 @@ order: 1
   {% endfor %}
 </ul>
 
-## Up-coming events
+<!-- ## Up-coming events
 <ul>
   {% for post in site.posts reversed %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
@@ -58,7 +58,7 @@ order: 1
       </li>
   {% endif %}
   {% endfor %}
-</ul>
+</ul> -->
 
 ## Happening this semester
 
@@ -71,6 +71,6 @@ order: 1
 <!-- http://alanwsmith.com/jekyll-liquid-date-formatting-examples -->
 <!-- {{ post.date | date: 'on %a %-m/%-d at %-I %P' }}  -->
 
-# Past semesters
+<!-- # Past semesters -->
 
-## F2021
+<!-- ## F2021 -->
