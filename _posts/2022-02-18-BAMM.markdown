@@ -4,8 +4,8 @@ title:  "BAMM! Open House (Virtual)"
 date:   2022-02-18 16:00:00 0000
 tags: BAMM Graduate PhD Zoom 2022
 ---
-BAMM! virtual open house on 2/28 from 4 pm to 5 pm
-[Flyer]({{ 'assets/BAMM/BAMM-open-house-2022.png' | relative_url }}).
+BAMM! virtual open house on Friday 2/18 from 4 pm to 5 pm
+[Flyer]({{ 'assets/BAMM/BAMM-open-house-2022.png' | relative_url }}), free to register.
 <!-- [Flyer]({{ 'assets/BAMM/BAMM-Flyer-2022-23.pdf' | relative_url }}) -->
 
 BAMM! webpage [webpage](https://sites.google.com/mail.fresnostate.edu/bamm).
@@ -13,7 +13,7 @@ BAMM! webpage [webpage](https://sites.google.com/mail.fresnostate.edu/bamm).
 From the webpage, 
 
 **What is BAMM?**
-<br>
+
 The BAMM! program provides financial support and mentoring for Master's students who wish to pursue a Ph.D. in the mathematical sciences. BAMM! is a fulfilling, cohort-based program in which participants receive annual scholarships of up to $10,000 for a maximum of two years at any of the three BAMM! sites. The BAMM! program expects to fund students in four cohorts for each academic year between AY 2020-21 and 2023-24.
-<br>
+
 Key features of BAMM! include, but are not limited to, a supportive community of fellow students and mentors, advanced coursework in the mathematical sciences, research experiences, continual guidance, and opportunities to travel to attend conferences in which students can network and gain experience presenting their results.
