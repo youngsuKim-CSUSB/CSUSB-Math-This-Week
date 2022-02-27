@@ -28,6 +28,11 @@ order: 1
   {% endfor %}
 </ul>
 
+## Spring 2022 News
+<ul>
+  <li>CSUSB Putnam Team ranked 291/427. 
+  </li>
+</ul>
 ## SageMath
 
 * Thanks to Pedro, if you want to try out [Sage](https://www.sagemath.org/), use your CSUSB credentials to login [myhorizon.csusb.edu](https://myhorizon.csusb.edu); for questions and comments contact Youngsu Kim. 
