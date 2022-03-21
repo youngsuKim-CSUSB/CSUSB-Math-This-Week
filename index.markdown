@@ -30,7 +30,7 @@ order: 1
 
 ### Spring 2022 News
   
-- F2022 Advising Begins on March 21st. The 2022-2026 tentative course listing is available on the [webpage](https://www.csusb.edu/mathematics/undergraduate/advising) (Program and Course Resources, Item 7)
+- F2022 Advising Begins on March 21st. The 2022-2026 tentative course listing is available on the [webpage](https://www.csusb.edu/mathematics/undergraduate/advising) (Program and Course Resources, Item 7).
 
 - CSUSB Putnam Team ranked 291/427. 
 
