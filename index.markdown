@@ -6,7 +6,7 @@ layout: default
 order: 1
 ---
 {% capture systemThisWeek %}{{'now' | date: '%W'}}{% endcapture %}
-# This week <font size="2"> today is {{ 'now' | date: "%a %D" }} </font> 
+## This week <font size="2"> today is {{ 'now' | date: "%a %D" }} </font> 
 <!-- {{ site.posts[0].url }} -->
 <ul>
   <!-- {% assign orderedpost = site.posts | reverse %} -->
@@ -28,12 +28,25 @@ order: 1
   {% endfor %}
 </ul>
 
-## Spring 2022 News
-<ul>
-  <li>CSUSB Putnam Team ranked 291/427. 
-  </li>
-</ul>
-## SageMath
+### Spring 2022 News
+  
+- F2022 Advising Begins on March 21st. The 2022-2026 tentative course listing is available on the [webpage](https://www.csusb.edu/mathematics/undergraduate/advising) (Program and Course Resources, Item 7)
 
-* Thanks to Pedro, if you want to try out [Sage](https://www.sagemath.org/), use your CSUSB credentials to login [myhorizon.csusb.edu](https://myhorizon.csusb.edu); for questions and comments contact Youngsu Kim. 
-* If you need high-performance computing, please consider [HPC at CSUSB](https://www.csusb.edu/academic-technologies-innovation/xreal-lab-and-high-performance-computing/high-performance-0).
+- CSUSB Putnam Team ranked 291/427. 
+
+
+<!-- ## SageMath -->
+
+<!-- * Thanks to Pedro, if you want to try out [Sage](https://www.sagemath.org/), use your CSUSB credentials to login [myhorizon.csusb.edu](https://myhorizon.csusb.edu); for questions and comments contact Youngsu Kim.  -->
+<!-- * If you need high-performance computing, please consider [HPC at CSUSB](https://www.csusb.edu/academic-technologies-innovation/xreal-lab-and-high-performance-computing/high-performance-0). -->
+
+<!-- ---
+layout: page
+title: Google Forms (Under construction)
+permalink: /Google-Forms/
+tag: Google form
+---
+This page will include a Google form link to submit events.  -->
+
+<!-- [jekyll][jekyll-organization]
+[jekyll](https://github.com/jekyll/jekyll) -->
