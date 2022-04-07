@@ -4,7 +4,7 @@ title:  "MAA Socal-Nev Spring 2022 Meeting at Pomona College"
 date:   2022-04-23 8:30:00 0000
 tags: MAA Spring2022 Pomona Hybrid Zoom
 ---
-The Spring 2022 MAA sectional meeting wil be held at Pomona Collge on Apr 23rd. The meeting offers a hybrid option, but we strongly suggest attedning in person. Registration is $5 for students and $10 for vitual. 
+The Spring 2022 MAA sectional meeting will be held at Pomona College on Apr 23rd. The meeting offers a hybrid option, but we strongly suggest attedning in person. Registration is $5 for students and $10 for vitual. 
 - [Official Webpage](http://sections.maa.org/socalnv/Meeting2022Spring.html)
 - [Registration Page](https://www.eventbrite.com/e/maa-socal-nev-spring-section-meeting-2022-registration-303853623367)
 
