@@ -5,11 +5,10 @@ layout: default
 # title: 
 order: 1
 ---
+{% capture systemYear %}{{'now' | date: '%y'}}{% endcapture %}
 {% capture systemThisWeek %}{{'now' | date: '%W'}}{% endcapture %}
-## This week <font size="2"> today is {{ 'now' | date: "%a %D" }} </font> 
-<!-- {{ site.posts[0].url }} -->
+## **This week** <font size="2"> today is {{ 'now' | date: "%a %D" }} </font> 
 <ul>
-  <!-- {% assign orderedpost = site.posts | reverse %} -->
   {% for post in site.posts reversed %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postWeek == systemThisWeek %}
@@ -28,12 +27,48 @@ order: 1
   {% endfor %}
 </ul>
 
-### Spring 2022 News
+
+### __Up-coming events__
+<ul>
+  {% for post in site.posts %}
+  {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
+  {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
+  {% if postYear == systemYear %}
+    {% if postWeek > systemThisWeek %}
+      <li> 
+      <!-- <font size="4"> -->
+      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+      <!-- </font> -->
+      {{ post.date | date: 'on %a %D'  }} 
+      <!-- {{ post.excerpt }} -->
+      </li>
+    {% endif %}
+  {% endif %}
+  {% endfor %}
+</ul>
+
+
+### **Spring 2022 News**
   
 - F2022 Advising Begins on March 21st. The 2022-2026 tentative course listing is available on the [webpage](https://www.csusb.edu/mathematics/undergraduate/advising) (Program and Course Resources, Item 7).
 
 - CSUSB Putnam Team ranked 291/427. 
 
+#### **Past events**
+<ul>
+  {% for post in site.posts %}
+  {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
+  {% if postWeek < systemThisWeek %}
+      <li> 
+      <!-- <font size="4"> -->
+      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+      <!-- </font> -->
+      {{ post.date | date: 'on %a %D'  }} 
+      <!-- {{ post.excerpt }} -->
+      </li>
+  {% endif %}
+  {% endfor %}
+</ul>
 
 <!-- ## SageMath -->
 
