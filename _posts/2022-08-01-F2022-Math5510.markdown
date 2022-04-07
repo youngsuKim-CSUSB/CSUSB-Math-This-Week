@@ -2,7 +2,7 @@
 layout: post
 title:  "F2022 Math 5510 CSUSB To PhD Bridge: Research in Mathematics"
 date:   2022-08-01 12:00:00 0000
-tags: F2022 5510 PdH
+tags: F2022 5510 PhD
 ---
 This topics course aims to support upper-level undergraduate and graduate students interested in pursuing further study in mathematics.
 
@@ -11,4 +11,6 @@ We plan to present and discuss information about mathematics graduate school and
 Though the course will include activities related to the GRE and GRE subject exams, it is not a GRE preparation course.
 
 Instructor consent is required to enroll in the course. Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSd7XYoa7z_-1tkX46c2wOqtJwzrdDHxb845vZeeABjaMsWw0g/viewform?usp=sf_link) to contact the instructor -- expect a short in-person meeting.
+
+For questions, contact Youngsu Kim at youngsu.kim@csusb.edu.
 
