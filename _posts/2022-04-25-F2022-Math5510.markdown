@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "F2022 Math 5510 CSUSB To PhD Bridge: Research in Mathematics"
-date:   2022-08-01 12:00:00 0000
-tags: F2022 5510 PhD
+date:   2022-04-25 12:00:00 0000
+tags: F2022 5510 PhD Registration
 ---
 This topics course aims to support upper-level undergraduate and graduate students interested in pursuing further study in mathematics.
 

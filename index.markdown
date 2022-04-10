@@ -30,7 +30,7 @@ order: 1
 
 ### __Up-coming events__
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
   {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postYear == systemYear %}
@@ -51,14 +51,14 @@ order: 1
 ### **Spring 2022 News**
   
 - F2022 Advising Begins on March 21st. The 2022-2026 tentative course listing is available on the [webpage](https://www.csusb.edu/mathematics/undergraduate/advising) (Program and Course Resources, Item 7).
-
 - CSUSB Putnam Team ranked 291/427. 
 
 #### **Past events**
 <ul>
   {% for post in site.posts %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
-  {% if postWeek < systemThisWeek %}
+  {% if postYear == systemYear %}
+    {% if postWeek < systemThisWeek %}
       <li> 
       <!-- <font size="4"> -->
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
@@ -66,6 +66,7 @@ order: 1
       {{ post.date | date: 'on %a %D'  }} 
       <!-- {{ post.excerpt }} -->
       </li>
+    {% endif %}
   {% endif %}
   {% endfor %}
 </ul>
