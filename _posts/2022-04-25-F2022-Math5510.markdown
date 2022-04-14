@@ -12,5 +12,8 @@ Though the course will include activities related to the GRE and GRE subject exa
 
 Instructor consent is required to enroll in the course. Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSd7XYoa7z_-1tkX46c2wOqtJwzrdDHxb845vZeeABjaMsWw0g/viewform?usp=sf_link) to contact the instructor -- expect a short in-person meeting.
 
-For questions, contact Youngsu Kim at youngsu.kim@csusb.edu.
+For questions, contact Youngsu Kim at [youngsu.kim@csusb.edu](youngsu.kim@csusb.edu).
 
+| ![QR Form]({{ 'assets/qr_codes/F2022-Math5510-Form.png' | relative_url }})  |  ![QR CourseDescription]({{ 'assets/qr_codes/F2022-Math5510-Course-Link.png' | relative_url }}) |
+|:--:| :--: |
+| QR Code for Form | QR Code Description |
