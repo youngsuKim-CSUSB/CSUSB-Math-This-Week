@@ -11,6 +11,8 @@ order: 1
 <ul>
   {% for post in site.posts reversed %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
+  {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
+  {% if postYear == systemYear %}
   {% if postWeek == systemThisWeek %}
       <li> 
       <font size="4">
@@ -23,6 +25,7 @@ order: 1
       {% endif %}      
       {{ post.excerpt }}
       </li>
+  {% endif %}
   {% endif %}
   {% endfor %}
 </ul>
