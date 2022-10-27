@@ -6,7 +6,7 @@ tags: MAA Spring2022 Pomona Hybrid Zoom
 ---
 From their [webpage](https://csu-jmm2022.com/): WELCOME TO THE FIRST CSU MATHEMATICAL CONFERENCE
 
-The CSU Math Council is pleased to announce the first system-wide conference of mathematicians and statisticians from the twenty-three CSU campuses to meet, get to know each other, and talk about research. This meeting will be a showcase, and a means to disseminate, research work of CSU faculty and students from all mathematical and statistical disciplines.
+The CSU Math Council is pleased to announce the first system-wide conference of mathematicians and statisticians from the twenty-three CSU campuses to meet, get to know each other, and talk about research. This meeting will be a showcase, and a means to disseminate, research work of CSU faculty and students from all mathematical and statistical disciplines. <!-- more -->
 
 This meeting will provide an excellent opportunity for CSU faculty and students from different campuses with common interests to engage in long-term inter-campus collaborations, such as online research working groups, sabbaticals or other visits, and student exchanges.
 

@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "S2023 Math 6110 Introduction to Toric Varieties"
+title:  "Course information: S2023 Math 6110 Introduction to Toric Varieties"
 date:   2022-12-31 00:00:00 0000
 tags: S2023 6110 toric variety algebraic-geometry commutative-algebra
 ---
 Title: Introduction to Toric Varieties 
 
-Group actions are essential tools in many areas of mathematics, and sometimes they help reveal deep and hidden properties. Roughly speaking, *toric varieties* are algebraic varieties with *torus actions*. Algebraic varieties are the sets of common roots of polynomials. Indeed, algebraic tori are group objects among algebraic varieties. 
+Group actions are essential tools in many areas of mathematics, and sometimes they help reveal deep and hidden properties. Roughly speaking, *toric varieties* are algebraic varieties with *torus actions*. Algebraic varieties are the sets of common roots of polynomials. Indeed, algebraic tori are group objects among algebraic varieties. <!-- more -->
 
 Torus actions provide several characterizations of toric varieties. In particular, toric varieties can be constructed from a fan, a combinatorial object. Sometimes this combinatorial approach helps understand deep theorems in algebraic geometry concretely. For instance, the resolution of singularities of two-dimensional toric varieties can be understood via a version of continued fractions. 
 

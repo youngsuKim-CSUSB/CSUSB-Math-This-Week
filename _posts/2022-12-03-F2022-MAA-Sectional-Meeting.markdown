@@ -2,10 +2,9 @@
 layout: post
 title:  "MAA Socal-Nev Fall 2022 Meeting at Cal State San Bernardino"
 date:   2022-12-03 8:30:00 0000
-tags: MAA Spring2022 Pomona Hybrid Zoom
+tags: MAA Fall2022 CSUSB 
 ---
-The Spring 2022 MAA sectional meeting will be held at CSUSB on Dec 3rd. Come back later for more information.
-
+The Fall 2022 MAA sectional meeting will be held at CSUSB on Dec 3rd. Come back later for more information.
 
 <!-- The meeting offers a hybrid option, but we strongly suggest attending in person. Registration is $5 for students and $10 for virtual. 
 - [Official Webpage](http://sections.maa.org/socalnv/Meeting2022Spring.html)
@@ -15,4 +14,4 @@ Thanks to the department, we have an MAA departmental membership that covers the
 
 For questions, contact Youngsu Kim at {{ 'youngsu.kim@csusb.edu' | encode_email }}.
 
-For LSAMP eligible students, check out the [LSAMP page](https://www.csusb.edu/mathematics/undergraduate/lsamp-program) for travel support.
+<!-- For LSAMP eligible students, check out the [LSAMP page](https://www.csusb.edu/mathematics/undergraduate/lsamp-program) for travel support. -->
