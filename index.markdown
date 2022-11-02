@@ -23,7 +23,7 @@ order: 1
       {% else %}
         {{ post.date | date: 'on %a %D at %-I:%M %P' }} 
       {% endif %}      
-      <!-- {{ post.excerpt }} -->
+      {{ post.excerpt }}
       </li>
   {% endif %}
   {% endif %}
@@ -43,7 +43,7 @@ order: 1
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
       <!-- </font> -->
       {{ post.date | date: 'on %a %D'  }} 
-      {{ post.excerpt }}
+      <!-- {{ post.excerpt }} -->
       </li>
     {% endif %}
   {% endif %}
