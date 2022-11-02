@@ -23,7 +23,7 @@ order: 1
       {% else %}
         {{ post.date | date: 'on %a %D at %-I:%M %P' }} 
       {% endif %}      
-      {{ post.excerpt }}
+      <!-- {{ post.excerpt }} -->
       </li>
   {% endif %}
   {% endif %}
