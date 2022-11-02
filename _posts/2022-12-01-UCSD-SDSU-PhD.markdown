@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PhD Programs in Math Ed at San Diego State and UC San Diego"
-date:   2022-12-01 00:00:00 0000
+date:   2022-12-30 00:00:00 0000
 tags: Graduate PhD 2023 MathEd
 ---
 
