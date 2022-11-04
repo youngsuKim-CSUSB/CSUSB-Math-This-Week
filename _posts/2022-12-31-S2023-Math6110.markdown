@@ -10,7 +10,7 @@ Group actions are essential tools in many areas of mathematics, and sometimes th
 
 Torus actions provide several characterizations of toric varieties. In particular, toric varieties can be constructed from a fan, a combinatorial object. Sometimes this combinatorial approach helps understand deep theorems in algebraic geometry concretely. For instance, the resolution of singularities of two-dimensional toric varieties can be understood via a version of continued fractions. 
 
-Toric varieties are often conceived sitting in the sweet spot. They are concrete enough to carry out explicit calculations and sophisticated enough to demonstrate general properties. The course aims to study toric varieties with special attention to the dimension two case. If time permits, we will cover computer algebra software such as Sage and Macaulay2. There is no set textbook to purchase, and the software and computing resources are available for free.
+Toric varieties are often conceived sitting in the sweet spot. They are concrete enough to carry out explicit calculations and sophisticated enough to demonstrate general properties. The course aims to study toric varieties with special attention to the dimension two case. If time permits, we will cover computer algebra software such as Sage and Macaulay2. There is no set textbook, and the software and computing resources will be available for free.
 
 Required courses: Math 6016, Math 2320   
     \*For students having a strong background in Math 4600 or a basic understanding of algebraic geometry, contact the instructor with a brief explanation of your background. 
