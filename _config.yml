@@ -58,4 +58,4 @@ timezone: PST8PDT
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-excerpt_separator: <!-- more -->
+# excerpt_separator: <!-- more -->
