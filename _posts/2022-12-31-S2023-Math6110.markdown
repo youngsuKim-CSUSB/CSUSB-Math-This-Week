@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Course information: S2023 Math 6110 Introduction to Toric Varieties"
-date:   2022-11-1 00:00:00 0000
+date:   2022-12-31 00:00:00 0000
 tags: S2023 6110 toric variety algebraic-geometry commutative-algebra
 ---
 Title: Introduction to Toric Varieties 
@@ -12,11 +12,13 @@ Torus actions provide several characterizations of toric varieties. In particula
 
 Toric varieties are often conceived sitting in the sweet spot. They are concrete enough to carry out explicit calculations and sophisticated enough to demonstrate general properties. The course aims to study toric varieties with special attention to the dimension two case. If time permits, we will cover computer algebra software such as Sage and Macaulay2. There is no set textbook, and the software and computing resources will be available for free.
 
-Required courses: Math 6016, Math 2320   
+The course requires instructor's permission to enroll. 
+
+Required or strongly suggested courses: Math 6016, Math 2320   
     \*For students having a strong background in Math 4600 or a basic understanding of algebraic geometry, contact the instructor with a brief explanation of your background. 
 
 Suggested courses and topics: Math 5310, algebraic geometry (algebraic varieties), convex sets
 
 For questions, contact Youngsu Kim at [youngsu.kim@csusb.edu](youngsu.kim@csusb.edu).
   
-Check back later for updates.
+Check back later [this page](https://youngsukim-csusb.github.io/CSUSB-Math-This-Week/) for updates.
