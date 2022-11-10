@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "University of California Riverside PhD Program Open House"
+date:   2022-11-19 10:00:00 0000
+tags: Graduate PhD 2023 UCR
+---
+
+The Graduate Program of Mathematics at the University of California, Riverside is hosting UCR's Math Graduate School Open House Saturday, November 19, 2022 from 10am-1pm. This is a great opportunity for prospective students to meet with faculty and graduate students in the department of Mathematics and inquire about our graduate program.
+
+In addition to learning more about our Graduate Program in Mathematics, we will be providing a $50 graduate school application discount (applicable towards one Mathematics graduate program application for Fall 2023) to all of those who RSVP and attend.
+
+Students may RSVP here 
+* [https://urldefense.com/v3/__https://mx.technolutions.net/ss/c/3umeT0p8JC2YP-dw0QylhOfzd6LHoQjaSvlhAvhBPCFSbg9oDqKF9x_zDRDdclyt/3r1/8EZusS5ZQhuvqkfDMZoMpg/h0/gfZMZGvU0EFU7O7kVG_KRz53rIGB7rWdRhAt_ACcexk__;!!OM2WEIN1DMg!CgHmozMO1uhLwWms3IkDVzMqsw7R4WRqM4zZgfmfX1LRSgJIWEuff_11Xep5OLXvvyXd7nU27H4qV5ttEgxvTancYQ$](https://urldefense.com/v3/__https://mx.technolutions.net/ss/c/3umeT0p8JC2YP-dw0QylhOfzd6LHoQjaSvlhAvhBPCFSbg9oDqKF9x_zDRDdclyt/3r1/8EZusS5ZQhuvqkfDMZoMpg/h0/gfZMZGvU0EFU7O7kVG_KRz53rIGB7rWdRhAt_ACcexk__;!!OM2WEIN1DMg!CgHmozMO1uhLwWms3IkDVzMqsw7R4WRqM4zZgfmfX1LRSgJIWEuff_11Xep5OLXvvyXd7nU27H4qV5ttEgxvTancYQ$)
+
+In addition to this email, attached is a flyer of our UCR Math Graduate School Open House event and our Applied Math Research. We are hopeful you may distribute this email and/or post our flyers within your department as it would help us to promote our event to your graduating students who are interested in applying to a graduate program in Mathematics for Fall 2023.
+
+- [Flyer Applied Math]({{ 'assets/phd-programs/Applied-Math-Flyer-2022.pdf' | relative_url }})
+
+- [Flyer Open House]({{ 'assets/phd-programs/Math-Grad-Open-House-Flyer-2022.pdf' | relative_url }})
