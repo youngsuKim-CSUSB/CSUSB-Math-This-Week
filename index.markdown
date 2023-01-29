@@ -74,6 +74,25 @@ order: 1
   {% endfor %}
 </ul>
 
+
+#### **In 2022**
+<ul>
+  {% for post in site.posts %}
+  <!-- {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %} -->
+  {% if postYear == 2022 %}
+    {% if postWeek < systemThisWeek %}
+      <li> 
+      <!-- <font size="4"> -->
+      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+      <!-- </font> -->
+      {{ post.date | date: 'on %a %D'  }} 
+      <!-- {{ post.excerpt }} -->
+      </li>
+    {% endif %}
+  {% endif %}
+  {% endfor %}
+</ul>
+
 <!-- ## SageMath -->
 
 <!-- * Thanks to Pedro, if you want to try out [Sage](https://www.sagemath.org/), use your CSUSB credentials to login [myhorizon.csusb.edu](https://myhorizon.csusb.edu); for questions and comments contact Youngsu Kim.  -->
