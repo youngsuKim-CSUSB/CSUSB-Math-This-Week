@@ -74,22 +74,16 @@ order: 1
   {% endfor %}
 </ul>
 
-
 #### **In 2022**
 <ul>
   {% for post in site.posts %}
-  <!-- {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %} -->
-  {% if postYear == 2022 %}
-    {% if postWeek < systemThisWeek %}
-      <li> 
-      <!-- <font size="4"> -->
-      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      <!-- </font> -->
-      {{ post.date | date: 'on %a %D'  }} 
-      <!-- {{ post.excerpt }} -->
-      </li>
+  {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
+    {% if postYear < systemYear %}
+        <li> 
+        <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+        {{ post.date | date: 'on %a %D'  }} 
+        </li>
     {% endif %}
-  {% endif %}
   {% endfor %}
 </ul>
 
