@@ -78,7 +78,8 @@ order: 1
 <ul>
   {% for post in site.posts %}
   {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
-  {% if postYear < systemYear %}
+  {% if postYear == systemYear %}
+  <!-- {% if postYear < systemYear %} -->
       <li> 
       <!-- <font size="4"> -->
       <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
