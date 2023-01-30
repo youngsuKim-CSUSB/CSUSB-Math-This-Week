@@ -78,16 +78,12 @@ order: 1
 <ul>
   {% for post in site.posts %}
   {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
-  {% if postYear == systemYear %}
-  <!-- {% if postYear < systemYear %} -->
-      <li> 
-      <!-- <font size="4"> -->
-      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-      <!-- </font> -->
-      {{ post.date | date: 'on %a %D'  }} 
-      <!-- {{ post.excerpt }} -->
-      </li>
-  {% endif %}
+    {% if postYear == systemYear %}
+        <li> 
+        <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+        {{ post.date | date: 'on %a %D'  }} 
+        </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
