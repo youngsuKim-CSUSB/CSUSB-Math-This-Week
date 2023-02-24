@@ -78,7 +78,7 @@ order: 1
 <ul>
   {% for post in site.posts %}
   {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
-    {% if postYear == 22 %}
+    {% if postYear == "22" %}
         <li> 
         <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
         {{ post.date | date: 'on %a %D'  }} 
@@ -92,7 +92,7 @@ order: 1
 <ul>
   {% for post in site.posts %}
   {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
-    {% if postYear == 21 %}
+    {% if postYear == "21" %}
         <li> 
         <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
         {{ post.date | date: 'on %a %D'  }} 
