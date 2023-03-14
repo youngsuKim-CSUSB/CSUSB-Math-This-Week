@@ -78,10 +78,25 @@ order: 1
 <ul>
   {% for post in site.posts %}
   {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
-    {% if postYear == systemYear %}
+    {% if postYear == "22" %}
         <li> 
         <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
         {{ post.date | date: 'on %a %D'  }} 
+        <!-- {{ postYear }} -->
+        </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+#### **In 2021**
+<ul>
+  {% for post in site.posts %}
+  {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
+    {% if postYear == "21" %}
+        <li> 
+        <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+        {{ post.date | date: 'on %a %D'  }} 
+        <!-- {{ postYear }} -->
         </li>
     {% endif %}
   {% endfor %}
