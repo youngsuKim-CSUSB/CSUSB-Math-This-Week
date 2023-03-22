@@ -10,7 +10,7 @@ The Spring 2023 MAA sectional meeting will be held at the University of La Verne
 
 Thanks to the department, we have an MAA departmental membership that covers the majority of our undergraduate students' membership. If you want to be enrolled, please visit the MAA webpage to join.
 
-- https://www.maa.org/
+- [https://www.maa.org/](https://www.maa.org/)
 
 If you are asked to pay for your membership, do not pay, but contact Youngsu Kim at {{ 'youngsu.kim@csusb.edu' | encode_email }} with a screenshot. 
 
