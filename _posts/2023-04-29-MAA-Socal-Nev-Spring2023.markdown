@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "MAA Socal-Nev Spring 2022 Meeting at University of La Verne"
-date:   2023-04-23 8:30:00 0000
+title:  "MAA Socal-Nev Spring 2023 Meeting at University of La Verne"
+date:   2023-04-29 8:30:00 0000
 tags: MAA Sectional Spring 2023 La-Verne 
 ---
-The Spring 2023 MAA sectional meeting will be held at the University of La Verne on Sat. Apr. 29th. Early registration is \$5 for students and \$10 on-site.
+The Spring 2023 MAA sectional meeting will be held at the University of La Verne on Sat. Apr. 29th. Early registration is \$5 and \$10 on-site for students.
 
 - [Official Webpage](http://sections.maa.org/socalnv/Meeting2023Spring.html)
 
