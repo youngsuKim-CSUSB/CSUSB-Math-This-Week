@@ -72,6 +72,7 @@ order: 1
 #### **Past events**
 <ul>
   {% for post in site.posts %}
+  {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
   {% if postYear == systemYear %}
     {% if postWeek < systemThisWeek %}

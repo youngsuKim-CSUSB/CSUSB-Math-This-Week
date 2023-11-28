@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Summer Undergraduate Mathematics and Statistics Accelerator (SUMSA)"
-date:   2024-02-16 5:00:00 0000
+date:   2024-02-16 17:00:00 0000
 tags: Summer Undergraduate Mathematics and Statistics Accelerator SUMSA 2024
 ---
 
