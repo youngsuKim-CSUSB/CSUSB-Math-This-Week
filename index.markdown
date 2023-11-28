@@ -36,6 +36,19 @@ order: 1
   {% for post in site.posts reversed %}
   {% capture postYear %}{{post.date | date: '%y'}}{% endcapture %}
   {% capture postWeek %}{{post.date | date: '%W'}}{% endcapture %}
+  {% if postYear > systemYear %}
+      <li> 
+      <font size="4">
+      <a href="{{ post.url | prepend : site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+      </font>
+      {% if postMinutes == '00' %}
+        {{ post.date | date: 'on %a %D at %-I %P' }} 
+      {% else %}
+        {{ post.date | date: 'on %a %D at %-I:%M %P' }} 
+      {% endif %}      
+      {{ post.excerpt }}
+      </li>
+  {% endif %}
   {% if postYear == systemYear %}
     {% if postWeek > systemThisWeek %}
       <li> 
