@@ -29,14 +29,21 @@ future: true
 # github_username:  youngsuKim-csusb
 
 # Build settings
-theme: minima
+# Pinned to the exact jekyll/minima revision this site has been building from
+# (it was declared as a git gem in the Gemfile). A remote theme is on GitHub
+# Pages' supported-plugin list, and it makes the Pages build and a local
+# `bundle exec jekyll serve` resolve the same theme files. The released minima
+# 2.5.1 gem that the github-pages gem would otherwise use is not equivalent.
+remote_theme: jekyll/minima@32468f51758b0b37c2b1f423265d4f29db461b27
 # minima:
 #   skin: dark
 #   date_format: "%b %-d, %Y"
 
+# jekyll-email-protect removed: it is not on GitHub Pages' plugin whitelist, so it
+# never loaded in either the old or the new build (see the exposed address in the
+# 2021 Peter-Williams-Memorial post, which needs to be obfuscated in the source).
 plugins:
   - jekyll-feed
-  - jekyll-email-protect
 
 timezone: PST8PDT
 # Exclude from processing.
